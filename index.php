@@ -6,7 +6,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <title>Pearl Oceans - Seafood Sales &amp; Consulting</title>
+  <title>Pearl Oceans - Seafood Sales and Consulting</title>
   <meta name="description" content="Seafood consulting and brand development">
 </head>
 <body>
