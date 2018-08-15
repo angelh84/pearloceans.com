@@ -2,7 +2,8 @@
   <div class="home-container">
     <h1>{{ msg }}</h1>
     <h2>Seafood consulting and brand development</h2>
-    <p>We are under construction. Please come back soon!</p>
+    <p class="construction-text">We are under construction. Please come back soon!</p>
+    <p>Meghan Russell, Founder<br>meghan@pearloceans.com<br>+1 (727) 373-8050<br><a href="https://www.linkedin.com/in/meghan-russell-6824b1a8/" target="_blank">LinkedIn</a> &bull; <a href="https://www.instagram.com/pearloceansseafood/" target="_blank">Instagram</a></p>
   </div>
 </template>
 
@@ -18,7 +19,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
 h1, h2 {
   font-weight: normal;
 }
@@ -27,7 +28,7 @@ h1 {
 }
 h2 {
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 5px;
   font-size: 22px;
 }
 ul {
@@ -39,6 +40,9 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #20a1f3;
+}
+.construction-text {
+  margin-bottom: 40px;
 }
 </style>
