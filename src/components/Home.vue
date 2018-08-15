@@ -3,7 +3,7 @@
     <h1>{{ msg }}</h1>
     <h2>Seafood consulting and brand development</h2>
     <p class="construction-text">We are under construction. Please come back soon!</p>
-    <p>Meghan Russell, Founder<br>meghan@pearloceans.com<br>+1 (727) 373-8050<br><a href="https://www.linkedin.com/in/meghan-russell-6824b1a8/" target="_blank">LinkedIn</a> &bull; <a href="https://www.instagram.com/pearloceansseafood/" target="_blank">Instagram</a></p>
+    <p>Meghan Russell, Founder<br><img class="contact-img" src="@/assets/contact.png">+1 (727) 373-8050<br><a href="https://www.linkedin.com/in/meghan-russell-6824b1a8/" target="_blank">LinkedIn</a> &bull; <a href="https://www.instagram.com/pearloceansseafood/" target="_blank">Instagram</a></p>
   </div>
 </template>
 
@@ -44,5 +44,10 @@ a {
 }
 .construction-text {
   margin-bottom: 40px;
+}
+.contact-img {
+  width: 198px;
+  display: block;
+  margin: 0 auto;
 }
 </style>
