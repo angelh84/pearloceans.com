@@ -31,6 +31,12 @@ html {
 
 .logo {
   max-width: 100%;
-  width: 430px;
+  width: 220px;
+}
+
+@media(min-width: 600px) {
+  .logo {
+    width: 430px;
+  }
 }
 </style>
